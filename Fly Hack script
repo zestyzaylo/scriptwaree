@@ -3,7 +3,7 @@
 
 -- Instances:
 
-local FlyGui = Instance.new("ScreenGui")
+local FlyGui = Instance.new("ScreenGui"
 local Frame = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
@@ -13,7 +13,7 @@ local TextLabel = Instance.new("TextLabel")
 FlyGui.Name = "FlyGui"
 FlyGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
-Frame.Parent = FlyGui
+Frame.Parent = FlyGui)
 Frame.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0.0685602352, 0, 0.168769717, 0)
